@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulLog</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="images/soully.webp">
+    <link rel="stylesheet" href="soully.css">
+</head>
+
+<body>
+    <!-- This code below shows the NAV BAR -->
+    <nav class="navbar">
+        <div class="logo">SoulLog</div>
+
+        <div class="hamburger" id="hamburger">
+            <span class=" bar"></span>
+            <span class=" bar"></span>
+            <span class=" bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Features.html">Features</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#" id="loginBtn">Login</a></li>
+        </ul>
+    </nav>
+    
+<!--This is for te overlay showing the login page for my website-->
+    <div class="overlay" id="overlay"></div>
+
+    <div class="login-box" id="loginBox">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button id="submitLogin">Login</button>
+
+        <p class="close" id="closeLogin">Close</p>
+    </div>
+    <div class="Intro" id="Intro1">
+    <h2>Introduction</h2>
+    <p>This is a general well being application where we listen what you cannot say</p>    
+</div>
+<div class="Intro" id="Intro2">
+    <h2> Background</h2>
+    <p> This is the background of the Application development</p>
+</div>
+    <script src="soully.js">
+    </script>
+</body>
+</html>
