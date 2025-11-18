@@ -2,13 +2,13 @@ $(document).ready(function () {
 
     // Toggle navbar for mobile
     $("#hamburger").click(function () {
-        $("#nav-links").slideToggle(300);
+        $("#nav-links").slideToggle(1500);
     });
 
     // Open login popup
     $("#loginBtn").click(function () {
-        $("#overlay").fadeIn(200);
-        $("#loginBox").fadeIn(200);
+        $("#overlay").fadeIn(1000);
+        $("#loginBox").fadeIn(1000);
     });
 
     // Close login popup

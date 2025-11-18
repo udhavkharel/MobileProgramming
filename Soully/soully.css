@@ -93,11 +93,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+    line-height: 30px;
 }
 
 .login-box h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .login-box input {
@@ -108,6 +109,7 @@ body {
     border: 1px solid grey;
     border-radius: 5px;
     border-width: 2px;
+    line-height: 30px;
 }
 
 .login-box button {
@@ -119,6 +121,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    line-height: 30px;
 }
 
 .close {
@@ -128,6 +131,7 @@ body {
     color: purple;
     cursor: pointer;
 }
+
 .Intro {
     border-radius: 5px;
     font-size: large;
@@ -139,6 +143,7 @@ body {
     align-content: center;
 
 }
+
 #Intro2 {
     background-color: antiquewhite;
     scroll-padding: 20px;
